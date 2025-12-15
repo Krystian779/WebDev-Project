@@ -1,0 +1,218 @@
+/* General Styles */
+h1{
+    text-align: center;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white; /* Dark Grey */
+    color: white; /* Light Text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Tablet (min-width: 768px) */
+@media (min-width: 768px) {
+  body {
+    background-color: white;
+}
+
+/* Desktop (min-width: 1024px) */
+@media (min-width: 1024px) {
+  body {
+    background-color: white;
+}
+
+/* Header */
+header {
+    background-color: white; /* Slightly lighter dark grey */
+    color: white; /* Light Blue */
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.nav-item{
+    border-radius: 10px;
+}
+
+/* Navigation */
+.navbar ul{
+    list-style-type: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color:black;
+    background-color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.navbar a:hover{
+    color: black;
+    background-color:rgb(128, 251, 255);
+    transition: 0.1s ease;
+    transform: scale(1.1);
+    text-shadow: 0px 0px 1px black;
+    border-radius: 10px;
+}
+
+.navbar li{
+    float: left;
+}
+nav {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #00c3ff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Sections & Articles */
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+h2{margin: 30px;
+padding: 20px;
+}
+
+a{
+    margin-left: 30px;
+    padding:20px;
+    text-decoration: none;
+    color: rgb(0, 119, 255) ;
+}
+
+.nav-item{
+    color: #00c3ff;
+}
+
+.article1text{
+    margin:30px;
+    padding:20px
+}
+/* Images */
+.article{
+    float:left;
+    margin-left: auto;
+    margin-right: 10px;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+img {
+    max-width: 100%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+
+/* Styles for future */
+
+/* Floated Image */
+.floated-img {
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #00c3ff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Forms */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #00c3ff;
+    color: #1e1e1e;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00c3ff;
+}
+
+/* Footer */
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}}}
