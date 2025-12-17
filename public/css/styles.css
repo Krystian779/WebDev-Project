@@ -1,24 +1,18 @@
 /* General Styles */
 h1 {
-  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(235, 235, 235);
+  color: black;
 }
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: white; /* Dark Grey */
-  color: white; /* Light Text */
+  font-family: Calibri;
+  background-color: white;
+  color: black;
   min-height: 100vh;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
-}
-
-/* Header */
-header {
-  background-color: white; /* Slightly lighter dark grey */
-  color: white; /* Light Blue */
-  text-align: center;
-  padding: 20px;
-  font-size: 24px;
 }
 
 .container-sm {
@@ -26,9 +20,6 @@ header {
   margin-bottom: 10px;
 }
 
-nav {
-  background-color: rgb(0, 37, 70);
-}
 .nav-item {
   border-radius: 10px;
 }
@@ -66,8 +57,6 @@ nav {
   float: left;
 }
 
-/* Main Content */
-
 .nav-item {
   color: rgb(50, 255, 255);
 }
@@ -79,56 +68,27 @@ nav {
   border-radius: 5px;
 }
 
-/* Lists */
-ul {
-  list-style-type: square;
+.description {
+  font-size: small;
 }
 
-ol {
-  list-style-type: decimal;
+.price {
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(0, 125, 0);
 }
-
-/* Table */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-}
-
-table,
-th,
-td {
-  border: 1px solid rgb(50, 255, 255);
-  padding: 10px;
-  text-align: left;
-}
-
-/* Forms */
-form {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-input,
-textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid white;
-  background-color: white;
+.title {
+  font-weight: stronger;
   color: black;
-  border-radius: 5px;
 }
-
 .card {
   height: 100%;
   background-color: rgb(235, 235, 235);
 }
-#buyNowbtn {
+.add-to-cart {
   background-color: white;
   color: #000000;
-  margin-left: 80px;
+  margin-left: 65px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -137,7 +97,7 @@ textarea {
 #price {
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(0, 135, 0);
+  color: rgb(0, 255, 0);
 }
 button {
   background-color: rgb(50, 255, 255);
@@ -148,7 +108,8 @@ button {
   border-radius: 5px;
 }
 
-#buyNowbtn:hover {
+.add-to-cart:hover {
+  color: black;
   background-color: rgb(50, 255, 255);
   transition: 0.1s ease;
   transform: scale(1.1);
@@ -165,9 +126,4 @@ footer {
   padding: 10px;
   font-size: 14px;
   color: black;
-}
-
-nav a {
-  display: block;
-  margin: 5px 0;
 }

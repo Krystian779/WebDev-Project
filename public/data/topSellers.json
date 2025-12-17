@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Iron Divide",
+      "genre": "Action / Crime",
+      "price": 15.99,
+      "image": "/images/iron-divide.jpg",
+      "description": "Two rival crime syndicates battle for control of a city divided by corruption, while a former detective is pulled back into the fight."
+    },
+    {
+      "id": 2,
+      "title": "Solar Fall",
+      "genre": "Sci-Fi / Adventure",
+      "price": 16.99,
+      "image": "/images/solar-fall.jpg",
+      "description": "When the sun begins to mysteriously dim, a team of astronauts embarks on a one-way mission to prevent global extinction."
+    },
+    {
+      "id": 3,
+      "title": "Echoes of Silence",
+      "genre": "Psychological Horror",
+      "price": 13.99,
+      "image": "/images/echoes-of-silence.jpg",
+      "description": "A sound engineer starts hearing voices hidden inside everyday noise, leading him down a terrifying path of paranoia and madness."
+    }
+  ]
+}

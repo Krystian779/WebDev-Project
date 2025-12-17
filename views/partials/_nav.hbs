@@ -15,13 +15,19 @@
             <a class='{{#if state.home}}active{{/if}}' href='/'>Home</a>
           </li>
           <li class="nav-item">
-            <a class='{{#if state.shop}}active{{/if}}' href='shop'>Shop</a>
+            <a  class='{{#if state.shop}}active{{/if}}' href='shop'>Shop</a>
           </li>
           <li class="nav-item">
             <a class='{{#if state.about}}active{{/if}}' href='about'>About</a>
           </li>
           <li class="nav-item">
             <a class='{{#if state.contact}}active{{/if}}' href='contact'>Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class='{{#if state.cart}}active{{/if}}' href='cart'>Cart (<span id="cart-count">0</span>)</a>
+          </li>
+          <li class="nav-item">
+            <a class='{{#if state.login}}active{{/if}}' href='login'>Login / Register</a>
           </li>
         </ul>
       </div>

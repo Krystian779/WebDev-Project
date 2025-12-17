@@ -30,6 +30,9 @@ app.set("views", "views");
 
 // where to find static files - css, images, js
 app.use(express.static("public"));
+// parse JSON bodies for checkout
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // home page or home route
 app.get("/", (req, res) => {
@@ -37,7 +40,7 @@ app.get("/", (req, res) => {
   state = { home: true };
 
   // set specifics for <head>
-  head = { title: "Home - Week 1" };
+  head = { title: "Home" };
 
   // pass object to to render in "index"
 
@@ -49,23 +52,47 @@ app.get("/", (req, res) => {
 // Routes
 app.get("/contact", (req, res) => {
   state = { contact: true };
-  head = { title: "Contact - Week 1" };
+  head = { title: "Contact" };
   res.render("contact", { state, head });
   console.log("contact");
 });
 
 app.get("/about", (req, res) => {
   state = { about: true };
-  head = { title: "About - Week 1" };
+  head = { title: "About" };
   res.render("about", { state, head });
   console.log("about");
 });
 
 app.get("/shop", (req, res) => {
   state = { shop: true };
-  head = { title: "Shop - Week 1" };
+  head = { title: "Shop" };
   res.render("shop", { state, head });
   console.log("shop");
+});
+
+// cart page
+app.get("/cart", (req, res) => {
+  state = {};
+  head = { title: "Your Cart" };
+  res.render("cart", { state, head });
+  console.log("cart");
+});
+
+// login page
+app.get("/login", (req, res) => {
+  state = {};
+  head = { title: "Login / Register" };
+  res.render("login", { state, head });
+  console.log("login");
+});
+
+// simple checkout endpoint (receives cart JSON and responds)
+app.post("/checkout", (req, res) => {
+  const order = req.body;
+  console.log("Received checkout order:", JSON.stringify(order));
+  // For this demo, just respond with success.
+  res.json({ success: true, message: "Order received" });
 });
 
 // Start the server
