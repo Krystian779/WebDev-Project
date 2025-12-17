@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Gangs in America",
+      "genre": "Crime / Drama",
+      "price": "14.99",
+      "image": "/images/gangs-in-america.jpg",
+      "description": "Rival mafia families clash for control of the streets as loyalty, power, and betrayal shape the rise and fall of an empire built on crime."
+    },
+    {
+      "id": 2,
+      "title": "Neon Ashes",
+      "genre": "Sci-Fi / Thriller",
+      "price": 14.99,
+      "image": "/images/neon-ashes.jpg",
+      "description": "In a neon-lit mega-city on the brink of collapse, a rogue engineer uncovers a secret that could either save humanity or destroy it forever."
+    },
+    {
+      "id": 3,
+      "title": "Last Signal",
+      "genre": "Mystery / Drama",
+      "price": 12.99,
+      "image": "/images/last-signal.jpg",
+      "description": "After receiving a radio transmission from her long-lost brother, a journalist travels to a remote island where nothing is as it seems."
+    },
+    {
+      "id": 4,
+      "title": "Iron Divide",
+      "genre": "Action / Crime",
+      "price": 15.99,
+      "image": "/images/iron-divide.jpg",
+      "description": "Two rival crime syndicates battle for control of a city divided by corruption, while a former detective is pulled back into the fight."
+    },
+    {
+      "id": 5,
+      "title": "Solar Fall",
+      "genre": "Sci-Fi / Adventure",
+      "price": 16.99,
+      "image": "/images/solar-fall.jpg",
+      "description": "When the sun begins to mysteriously dim, a team of astronauts embarks on a one-way mission to prevent global extinction."
+    },
+    {
+      "id": 6,
+      "title": "Echoes of Silence",
+      "genre": "Psychological Horror",
+      "price": 13.99,
+      "image": "/images/echoes-of-silence.jpg",
+      "description": "A sound engineer starts hearing voices hidden inside everyday noise, leading him down a terrifying path of paranoia and madness."
+    }
+  ]
+}

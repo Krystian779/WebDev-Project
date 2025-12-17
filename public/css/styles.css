@@ -6,212 +6,168 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: white; /* Dark Grey */
   color: white; /* Light Text */
-  margin: 0;
-  padding: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Tablet (min-width: 768px) */
-@media (min-width: 768px) {
-  body {
-    background-color: white;
-  }
+/* Header */
+header {
+  background-color: white; /* Slightly lighter dark grey */
+  color: white; /* Light Blue */
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
 
-  /* Desktop (min-width: 1024px) */
-  @media (min-width: 1024px) {
-    body {
-      background-color: white;
-    }
+.container-sm {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
 
-    /* Header */
-    header {
-      background-color: white; /* Slightly lighter dark grey */
-      color: white; /* Light Blue */
-      text-align: center;
-      padding: 20px;
-      font-size: 24px;
-    }
+nav {
+  background-color: rgb(0, 37, 70);
+}
+.nav-item {
+  border-radius: 10px;
+}
 
-    .nav-item {
-      border-radius: 10px;
-    }
+/* Navigation */
+.navbar ul {
+  list-style-type: none;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar {
+  background-color: rgb(235, 235, 235);
+}
+.navbar a {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+}
 
-    /* Navigation */
-    .navbar ul {
-      list-style-type: none;
-      background-color: white;
-      padding: 0px;
-      margin: 0px;
-      overflow: hidden;
-    }
+.navbar a:hover {
+  color: black;
+  background-color: rgb(50, 255, 255);
+  transition: 0.1s ease;
+  transform: scale(1.1);
+  border-radius: 10px;
+}
 
-    .navbar a {
-      color: black;
-      background-color: white;
-      text-decoration: none;
-      padding: 15px;
-      display: block;
-      text-align: center;
-      border-radius: 10px;
-    }
+.navbar li {
+  float: left;
+}
 
-    .navbar a:hover {
-      color: black;
-      background-color: rgb(128, 251, 255);
-      transition: 0.1s ease;
-      transform: scale(1.1);
-      border-radius: 10px;
-    }
+/* Main Content */
 
-    .navbar li {
-      float: left;
-    }
-    nav {
-      background-color: white;
-      padding: 10px;
-      text-align: center;
-    }
+.nav-item {
+  color: rgb(50, 255, 255);
+}
 
-    nav a {
-      color: #00c3ff;
-      text-decoration: none;
-      margin: 0 15px;
-      font-size: 18px;
-    }
+/* Floated Image */
+.floated-img {
+  float: left;
+  margin: 10px;
+  border-radius: 5px;
+}
 
-    /* Main Content */
-    main {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
+/* Lists */
+ul {
+  list-style-type: square;
+}
 
-    /* Sections & Articles */
-    section {
-      background-color: white;
-      padding: 10px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
+ol {
+  list-style-type: decimal;
+}
 
-    h2 {
-      margin: 30px;
-      padding: 20px;
-    }
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
 
-    a {
-      margin-left: 30px;
-      padding: 20px;
-      text-decoration: none;
-      color: rgb(0, 119, 255);
-    }
+table,
+th,
+td {
+  border: 1px solid rgb(50, 255, 255);
+  padding: 10px;
+  text-align: left;
+}
 
-    .nav-item {
-      color: #00c3ff;
-    }
+/* Forms */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
 
-    /* Floated Image */
-    .floated-img {
-      float: left;
-      margin: 10px;
-      border-radius: 5px;
-    }
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
 
-    /* Lists */
-    ul {
-      list-style-type: square;
-    }
+.card {
+  height: 100%;
+  background-color: rgb(235, 235, 235);
+}
+#buyNowbtn {
+  background-color: white;
+  color: #000000;
+  margin-left: 80px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
 
-    ol {
-      list-style-type: decimal;
-    }
+#price {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 135, 0);
+}
+button {
+  background-color: rgb(50, 255, 255);
+  color: #000000;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
 
-    /* Table */
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px 0;
-    }
+#buyNowbtn:hover {
+  background-color: rgb(50, 255, 255);
+  transition: 0.1s ease;
+  transform: scale(1.1);
+}
+button:hover {
+  background-color: rgb(50, 255, 255);
+}
 
-    table,
-    th,
-    td {
-      border: 1px solid #00c3ff;
-      padding: 10px;
-      text-align: left;
-    }
+/* Footer */
+footer {
+  margin-top: auto;
+  background-color: rgb(235, 235, 235);
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: black;
+}
 
-    /* Forms */
-    form {
-      background-color: white;
-      padding: 20px;
-      border-radius: 10px;
-    }
-
-    input,
-    textarea {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border: 1px solid white;
-      background-color: white;
-      color: black;
-      border-radius: 5px;
-    }
-
-    .card {
-      background-color: rgb(250, 250, 250);
-    }
-    #buyNowbtn {
-      background-color: white;
-      color: #1e1e1e;
-      margin-left: 80px;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    #price {
-      font-weight: bold;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: rgb(0, 135, 0);
-    }
-    button {
-      background-color: #00c3ff;
-      color: #1e1e1e;
-      padding: 10px 15px;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    #buyNowbtn:hover {
-      background-color: #00c3ff;
-      transition: 0.1s ease;
-      transform: scale(1.1);
-    }
-    button:hover {
-      background-color: #00c3ff;
-    }
-
-    /* Footer */
-    footer {
-      background-color: white;
-      text-align: center;
-      padding: 10px;
-      font-size: 14px;
-      color: black;
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      main {
-        width: 90%;
-      }
-
-      nav a {
-        display: block;
-        margin: 5px 0;
-      }
-    }
-  }
+nav a {
+  display: block;
+  margin: 5px 0;
 }
