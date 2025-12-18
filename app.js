@@ -91,7 +91,7 @@ app.get("/login", (req, res) => {
 app.post("/checkout", (req, res) => {
   const order = req.body;
   console.log("Received checkout order:", JSON.stringify(order));
-  // For this demo, just respond with success.
+  // Respond with success.
   res.json({ success: true, message: "Order received" });
 });
 
