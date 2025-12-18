@@ -14,7 +14,9 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+#contactText {
+  font-size: bigger;
+}
 .container-sm {
   margin-top: 100px;
   margin-bottom: 10px;
@@ -99,14 +101,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(0, 255, 0);
 }
-button {
-  background-color: rgb(50, 255, 255);
-  color: #000000;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
 
 .add-to-cart:hover {
   color: black;
@@ -114,8 +108,46 @@ button {
   transition: 0.1s ease;
   transform: scale(1.1);
 }
-button:hover {
+#contactBtn {
+  background-color: rgb(235, 235, 235);
+  color: #000000;
+  border-color: rgb(50, 255, 255);
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#contactBtn:hover {
+  color: black;
   background-color: rgb(50, 255, 255);
+  transition: 0.1s ease;
+  transform: scale(1.1);
+}
+
+#loginbtn {
+  width: 90%;
+  margin-left: 5%;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#loginbtn:hover {
+  color: black;
+  background-color: rgb(50, 255, 255);
+  transition: 0.1s ease;
+  transform: scale(1.1);
+}
+
+button:hover {
+  color: black;
+  background-color: rgb(50, 255, 255);
+  transition: 0.1s ease;
+  transform: scale(1.1);
 }
 
 /* Footer */

@@ -156,3 +156,8 @@ window.onload = async function () {
   renderProducts(products);
   renderTopSellers(topSellers);
 };
+
+function logout() {
+  localStorage.removeItem("loggedInUser");
+  window.location.href = "/login";
+}
