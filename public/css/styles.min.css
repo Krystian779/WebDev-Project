@@ -1,0 +1,142 @@
+h1 {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ebebeb;
+  color: #000;
+}
+body {
+  font-family: Calibri;
+  background-color: #fff;
+  color: #000;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+#contactText {
+  font-size: bigger;
+}
+.container-sm {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.nav-item {
+  border-radius: 10px;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.navbar {
+  background-color: #ebebeb;
+}
+.navbar a {
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+}
+.navbar a:hover {
+  color: #000;
+  background-color: #32ffff;
+  transition: 0.1s ease;
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+.navbar li {
+  float: left;
+}
+.nav-item {
+  color: #32ffff;
+}
+.floated-img {
+  float: left;
+  margin: 10px;
+  border-radius: 5px;
+}
+.description {
+  font-size: small;
+}
+.price {
+  font-size: medium;
+  font-weight: 700;
+  color: #007d00;
+}
+.title {
+  font-weight: stronger;
+  color: #000;
+}
+.card {
+  height: 100%;
+  background-color: #ebebeb;
+}
+.add-to-cart {
+  background-color: #fff;
+  color: #000;
+  margin-left: 65px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#price {
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: lime;
+}
+.add-to-cart:hover {
+  color: #000;
+  background-color: #32ffff;
+  transition: 0.1s ease;
+  transform: scale(1.1);
+}
+#contactBtn {
+  background-color: #ebebeb;
+  color: #000;
+  border-color: #32ffff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#contactBtn:hover {
+  color: #000;
+  background-color: #32ffff;
+  transition: 0.1s ease;
+  transform: scale(1.1);
+}
+#loginbtn {
+  width: 90%;
+  margin-left: 5%;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#loginbtn:hover {
+  color: #000;
+  background-color: #32ffff;
+  transition: 0.1s ease;
+  transform: scale(1.1);
+}
+button:hover {
+  color: #000;
+  background-color: #32ffff;
+  transition: 0.1s ease;
+  transform: scale(1.1);
+}
+footer {
+  margin-top: auto;
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #000;
+}
