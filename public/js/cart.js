@@ -65,7 +65,7 @@ function showCart() {
   html += `</tbody></table>
     <div class="mt-3">
       <h3>Total: €${total.toFixed(2)}</h3>
-      <button onclick="checkout()" class="btn btn-success">Checkout</button>
+      <button onclick="checkout()" class="btn btn-success">Purchase</button>
     </div>`;
 
   container.innerHTML = html;
